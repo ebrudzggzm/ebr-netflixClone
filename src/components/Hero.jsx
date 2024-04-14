@@ -38,7 +38,7 @@ console.log(movie,'movie')
         </div>
       )}
       <div className="flex flex-col gap-3 items-center justify-center m-6">
-            {/* <img className="hero-img rounded-md " src={baseImgUrl + movie.backdrop_path} alt="resim" /> */}
+            <img className="hero-img rounded-md " src={baseImgUrl + movie?.backdrop_path} alt="resim" />
           </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import baseImgUrl from "../constants"
+
 const ActorsCard = ({actor}) => {
   return (
     <div className="w-[160px] line-clamp-1">

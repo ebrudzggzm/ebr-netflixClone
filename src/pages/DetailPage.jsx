@@ -28,12 +28,13 @@ const DetailPage = () => {
         <Loader />
       ) : (
         <div>
-          <div className="relative  h-[80vh] ">
-            <img 
-              className="object-cover h-full w-full"
+          <div className="relative  h-[100vh]  ">
+            <div className="flex justify-center   h-[80vh]"> <img 
+              className="object-cover rounded-md mt-5"
               src={baseImgUrl + detail.backdrop_path}
-            />
-            <div className="absolute bg-black inset-0 grid place-items-center opacity-50">
+            /></div>
+           
+            <div className="absolute bg-gray-800 inset-0 grid place-items-center opacity-50">
               <h2 className="text-2xl font-bold">{detail.title}</h2>
             </div>
           </div>
@@ -80,7 +81,7 @@ const DetailPage = () => {
                 lazyLoad: true,
               }}
             >
-              {detail.credits.cast && detail.credits.cast.map((actor, i) => (
+              {detail.credits?.cast && detail.credits?.cast.map((actor, i) => (
                   <SplideSlide>
                     <ActorsCard actor={actor} key={i} />
                   </SplideSlide>
