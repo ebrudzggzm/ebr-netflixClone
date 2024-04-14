@@ -5,7 +5,7 @@ const ActorsCard = ({actor}) => {
     <div className="w-[160px] line-clamp-1">
         
        <img
-        className="h-[175px]"
+        className="h-[175px] rounded-md"
         src={baseImgUrl + actor.profile_path}
       />
       <h2>{actor.original_name}</h2>

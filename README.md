@@ -1,18 +1,14 @@
 # React + Vite
 
-
-
 -react-icons
 -axios
 -react-router-dom
 -tailwind (stillendirme) 
 -redux
 -redux-thunk
--json server
 
 
-
-![](./ebryemekSepetiThunk.gif)
+![](./ebrnetflixClone.gif)
 
 API:https://developer.themoviedb.org/reference/intro/getting-started
 

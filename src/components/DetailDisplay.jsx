@@ -9,7 +9,7 @@ const DetailDisplay = ({ title, props }) => {
         {props?.map((i) =>
           i.logo_path ? (
             <div className="bg-white px-1 py-2  rounded-md" key={i.id}>
-              <img className="w-[100px] object-contain h-[40px] " src={baseImgUrl + i.logo_path} />
+              <img className="w-[100px] object-contain h-[40px]" src={baseImgUrl + i.logo_path} />
             </div>
           ) : (
             <span className="border p-1 rounded-md px-2" key={i.id}>{i.name}</span>
